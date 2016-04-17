@@ -747,13 +747,18 @@ a:hover {
 
 	/*navigation*/
 
-	.ch1 {
+	.ch1,
+	.ch2 {
 		background-image: none;
-		border-bottom: none;
-		border-radius: 10px;
 	}
 
-	.ch2,
+	.ch2 {
+		border-bottom: none;
+		border-radius: 0 0 10px 10px;
+		-webkit-border-radius: 0 0 10px 10px;
+		-moz-border-radius: 0 0 10px 10px;
+	}
+
 	.ch3,
 	.ch4,
 	.ch5,
