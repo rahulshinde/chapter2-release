@@ -251,7 +251,8 @@ p {
 }
 
 .intro:hover,
-.intro-close:hover {
+.intro-close:hover,
+.afterwards:hover {
 	cursor: pointer;
 }
 
@@ -260,6 +261,17 @@ p {
 	-webkit-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
 	-moz-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
 	box-shadow: 6px 0 7px rgba(0,0,0,0.3);
+}
+
+.afterwards:hover {
+	-webkit-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+}
+
+.no-shadow:hover {
+	cursor: inherit;
+	box-shadow: none;
 }
 
 .box-shadow:hover {
@@ -439,7 +451,6 @@ li {
     background-size: 60%;
 }
 
-.ch2,
 .ch3,
 .ch4,
 .ch5,
@@ -478,13 +489,13 @@ a:hover {
 	background-image: none;
 }
 
-/*.ch2:hover,
-.ch7:hover {
+.ch2:hover
+/*.ch7:hover */{
 	background-color: #ffdb55;
 	background-image: none;
 }
 
-.ch3:hover,
+/*.ch3:hover,
 .ch8:hover {
 	background-color: #ffd582;
 	background-image: none;
@@ -525,6 +536,14 @@ a:hover {
 	-webkit-border-radius: 0 0 0 10px;
 	-moz-border-radius: 0 0 0 10px;
 }
+
+/*  =======================
+    IMG
+    ======================= */
+.full-image {
+	width: 100%;
+}
+
 
 /*  =======================
     MEDIA QUERIES
