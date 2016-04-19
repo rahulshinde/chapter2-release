@@ -359,7 +359,8 @@ p {
 		LINKS
 	============================= */
 
-	.pub-link {
+	.pub-link,
+	.about-link {
 		position: fixed;
 		width: 120px;
 		height: 120px;
@@ -371,12 +372,22 @@ p {
 
 	.pub-link {
 		bottom: 0;
-		right:80px;
+		right:150px;
 		background-image: url('../img/icons/pub.png');
 	}
 
 	.pub-link:hover {
 		background-image: url('../img/icons/pub-hov.png');
+	}
+
+	.about-link {
+		bottom: 0;
+		right:60px;
+		background-image: url('../img/icons/abt.png');
+	}
+
+	.about-link:hover {
+		background-image: url('../img/icons/abt-hov.png');
 	}
 
 /* 	=============================
