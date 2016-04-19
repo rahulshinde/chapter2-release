@@ -915,10 +915,10 @@ a:hover {
 	/* links*/
 	
 	.pub-link {
-		left:50px;
+		display: none;
 	}
 
-	.vid-link {
+	.about-link {
 		right:50px;
 	}
 
