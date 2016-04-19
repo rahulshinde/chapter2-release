@@ -174,7 +174,7 @@ p {
 #click1 {
 	position: fixed;
 	top: 155px;
-	left: 575px;
+	left: -500px;
 	
 	padding-bottom:10px;
 
@@ -249,7 +249,7 @@ p {
 .intro-close {
 	background-color: rgba(0,0,0,0);
 	z-index: 200;
-	display: block;
+	display: none;
 
 }
 
@@ -344,7 +344,7 @@ p {
 .intro-text {
 	position: fixed;
 	top: 60px;
-	left: 60px;
+	left: -1000px;
 	bottom: 0;
 	width: 600px;
 	overflow-y:scroll;
